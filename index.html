@@ -1,36 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,800;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <script src="./main.js" defer></script>
     <title>Teste</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header-contato">
-            <section>
-                <div>
-                    <img src="" alt="">
-                    <a href="tel:+5511987654321">(41) 99983929</a>
+    <header class="flex column header">
+        <div class="flex center header-contato">
+            <section class="flex header-contato--tel">
+                <div class="flex">
+                    <img src="./img/tel.png" alt="">
+                    <a href="tel:+554199983929">41 99983929</a>
                 </div>
-                <div>
-                    <img src="" alt="">
-                    <p class="phone-number">(11) 98765-4321</p>
+                <div class="flex">
+                    <img src="./img/whats.png" alt="">
+                    <p class="phone-number">41 99983929</p>
                 </div>
             </section>
-            <section>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <a href="" target="_blank" rel="noopener noreferrer"><img src="" alt=""></a>
+            <section class="flex center header-contato--social">
+                <a href="http://" target="_blank" rel="noopener noreferrer"><img src="./img/twiter.png" alt="logo twiter"></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><img src="./img/insta.png" alt="logo instagran"></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><img src="./img/face.png" alt="logo facebook"></a>
+                <a href="./img/linkq.png" target="_blank" rel="noopener noreferrer"><img src="./img/linkq.png" alt="linkedin"></a>
             </section>
-            <nav>
-                <ul class="menu-principal">
+        </div>
+            <nav class="">
+                <ul class="menu-principal flex center">
                     <li>
-                        <a href="#" class="logo">Logo</a>
+                        <a href="#" class="logo"><img src="./img/logo.png" alt="logo empresa"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img/home.png" alt="home page"></a>
                     </li>
                     <li>
                         <a href="#">Sobre Nós</a>
@@ -49,7 +57,6 @@
                     </li>
                 </ul>
             </nav>            
-        </div>
     </header>
     <hr>
     <main>
@@ -59,22 +66,24 @@
         </section>
     </main>
 
-    <footer>
-        <img src="" alt="">
-        <ul class="footer">
-            <li>
+    <footer class="flex ">
+        <div>
+            <img src="./img/logo.png" alt="logo empresa">
+        </div>
+        <ul class="">
+            <li class="footer-menu">
                 <a href="#" class="logo">Logo</a>
             </li>
-            <li>
+            <li class="footer-menu">
                 <a href="#">Sobre Nós</a>
             </li>
-            <li>
+            <li class="footer-menu">
                 <a href="#">Redes de Proteção</a>
             </li>
-            <li>
+            <li class="footer-menu">
                 <a href="#">Serviços</a>
             </li>
-            <li>
+            <li class="footer-menu"> 
                 <a href="#">Blog</a>
             </li>
             <li>
