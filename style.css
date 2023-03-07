@@ -1,0 +1,44 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+
+.center{
+    justify-content: center;
+}
+
+.header{
+
+}
+.header-contato{
+    width: 100%;
+    background: yellowgreen;
+}
+
+.header-contato--tel{
+    justify-content: flex-end;
+    width: 40%;
+}
+
+.header-contato--social{
+    width: 60%;
+}
+
+.menu-principal{
+    padding: 15px;
+    gap: 40px;
+}
+
+
+,footer{
+    
+}
+.footer-menu{
+    margin-bottom: 11px;
+}
